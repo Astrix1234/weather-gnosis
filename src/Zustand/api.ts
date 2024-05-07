@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const weatherAPI = axios.create({
-  baseURL: 'http://localhost:3000/api',
+  baseURL: 'https://weather-gnosis-backend.onrender.com/api',
 });
 
 export const fetchWeatherForecast = async (lat: number, lon: number) => {
