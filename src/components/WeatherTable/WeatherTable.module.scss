@@ -1,0 +1,38 @@
+.weatherContainer {
+    overflow-x: auto;
+    margin: 0 auto;
+}
+
+.weatherTable {
+    width: 80vw;
+    max-width: 1200px;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: clamp(0.7rem, 2vw, 1.1rem);
+    margin: 40px auto;
+}
+
+.weatherTable th,
+.weatherTable td {
+    border: 1px solid #ccc;
+    padding: clamp(4px, 1.5vw, 10px);
+    text-align: center;
+}
+
+.weatherTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.weatherTable td {
+    background-color: #ffffff;
+}
+
+.darkMode .weatherTable th {
+    background-color: #333333;
+}
+
+.darkMode .weatherTable td {
+    background-color: #222222;
+    border: 1px solid #444444;
+}
